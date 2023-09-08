@@ -1,0 +1,346 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Navbar css style started */
+/* Navbar.css */
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: end;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  /* margin: 0 10px; */
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #4b4b4b;
+}
+
+/* Active link style */
+nav a.active {
+  background-color: #3f7b3f; /* Change this to your desired active link color */
+}
+
+nav a:not(:last-child) {
+  border-right: 2px solid #fff;
+}
+
+/* Navbar css ended */
+
+/* about us page css started */
+/* About.css */
+
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.about h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Optional: Add more specific styles as needed */
+/* About us page ended */
+
+/* home page css */
+/* PortfolioHome.css */
+
+/* Page Layout */
+.portfolio-home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+header p {
+  font-size: 18px;
+  color: #777;
+}
+
+/* Sections */
+.about, .portfolio, .contact {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Homepage styles as needed */
+/* contact us css */
+/* Contact.css */
+
+.contact {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.contact-form, .contact-info {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.contact-form h2, .contact-info h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-form p, .contact-info p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Customize styles as needed */
+
+/* resume page css style */
+/* Resume.css */
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Customize styles as needed */
+
+/* blog css style */
+/* Blogs.css */
+
+.blogs {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.blog-list {
+  margin-top: 20px;
+}
+
+.blog-post {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Customize styles as needed */
+/* Error page */
+/* Error.css */
+
+.error {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.error h2 {
+  font-size: 36px;
+  color: #ff0000; /* Red color for error message */
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: underline;
+}
+
+/* toggler css  */
+
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.mobile-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+
+
+
+/* Media query for mobile toggle */
+@media (max-width: 768px) {
+  .mobile-toggle {
+    display: flex;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: -110%;
+    width: 94%;
+    background-color: #333;
+    transition: left 0.3s ease-in-out;
+    padding: 10px 20px;
+    
+  }
+  
+  .nav-links.open {
+    left: 0;
+  }
+}
