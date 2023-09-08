@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css'; // Import the CSS file
 
+
+
 const PortfolioHome = () => {
   return (
     <div className="portfolio-home">
@@ -31,5 +33,6 @@ const PortfolioHome = () => {
     </div>
   );
 };
+
 
 export default PortfolioHome;

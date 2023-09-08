@@ -21,8 +21,9 @@ const Navbar = () => {
         <Link to='/' className={location.pathname === '/' ? 'active' : ''}>Home</Link>
         <Link to='/about' className={location.pathname === '/about' ? 'active' : ''}>About</Link>
         <Link to='/contact' className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
-        <Link to='/resume' className={location.pathname === '/resume'? 'active' : ''}>Resume</Link>
+        <Link to='/pricing' className={location.pathname === '/pricing'? 'active' : ''}>Pricing</Link>
         <Link to='/blogs' className={location.pathname === '/blogs' ? 'active' : ''}>Blogs</Link>
+        <Link to='/signin' className={location.pathname === '/signin'? 'active' : ''}>Login</Link>
       </div>
     </nav>
   );

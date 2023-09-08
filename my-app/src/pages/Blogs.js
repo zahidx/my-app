@@ -23,7 +23,7 @@ const Blogs = () => {
       date: 'August 15, 2023',
       content: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas...',
     },
-    
+
     // Add more blog post entries as needed
   ];
 
@@ -43,5 +43,6 @@ const Blogs = () => {
     </div>
   );
 };
+
 
 export default Blogs;
